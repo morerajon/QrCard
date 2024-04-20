@@ -1,0 +1,59 @@
+:root {
+    --color-primario:  #D5E1EF; /* Color azul */
+    --color-secundario:#3685FE; /* Color verde */
+    --color-terciario: #e74c3c; /* Color rojo */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+     
+   
+}
+
+body{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    display: flex; /* Utiliza flexbox */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0; /* Elimina los márgenes del cuerpo */
+    background-color: var(--color-primario);
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 390px;
+   
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(60, 71, 75, 0.1);
+    
+}
+
+img{
+   
+    background-color: var(--color-secundario);
+    width: 150px;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 10px 30px;
+    
+}
+
+p ,h1{
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+P{
+    font-size: 16PX;
+    color: rgba(34, 34, 34, 0.918);
+}
